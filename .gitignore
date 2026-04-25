@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.cache/
+data/geo_cache/
+data/geo_suppl/
+data/references/
+docs/audit_runs/
+results/endpoints/sample_endpoints.tsv

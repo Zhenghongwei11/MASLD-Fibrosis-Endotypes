@@ -1,0 +1,7 @@
+dataset_id	source_url	local_path	sha256	notes
+GSE163211	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163211	data/geo_cache/GSE163211_series_matrix.txt.gz		Series matrix cached locally; gene-symbol expression table present.
+GSE49541	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE49541	data/geo_cache/GSE49541_series_matrix.txt.gz		Series matrix cached locally; probe-level table (requires platform mapping for gene-level integration).
+GSE48452	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48452	data/geo_cache/GSE48452_series_matrix.txt.gz		Series matrix cached locally; probe-level table (requires platform mapping for gene-level integration).
+GSE89632	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89632	data/geo_cache/GSE89632_series_matrix.txt.gz		Series matrix cached locally; probe-level table (requires platform mapping for gene-level integration).
+GSE115469_GENE_X_CELL	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/suppl/GSE115469_Data.csv.gz	data/geo_suppl/GSE115469/GSE115469_Data.csv.gz	9d20630b98dba970ef3ec616d48a18857d94aa38e29886ab358a6dbdb10cbdde	Human liver scRNA atlas (gene × cell matrix) used for endotype localization; keep as gzip; streamed in analysis.
+GSE115469_CELLTYPES	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/suppl/GSE115469_CellClusterType.txt.gz	data/geo_suppl/GSE115469/GSE115469_CellClusterType.txt.gz	a83f30e231059abeed2e1a95c4a0677fcdeea905d80ecc3a8d7eb3371bb2ad07	Human liver scRNA atlas cell-type labels (CellName → CellType) used for localization dot plot.
