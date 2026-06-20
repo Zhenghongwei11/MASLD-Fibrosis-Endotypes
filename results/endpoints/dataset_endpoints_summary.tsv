@@ -1,0 +1,15 @@
+dataset_id	n_total	stage_key	n_with_stage	n_f3plus	n_f4
+GSE130970	78	fibrosis stage	78	16	2
+GSE135251	216	fibrosis stage	216	68	14
+GSE15653	18		0	0	0
+GSE162694	143	fibrosis stage	112	20	12
+GSE163211	318	nafld stage	154	82	0
+GSE33814	44		0	0	0
+GSE48452	73	fibrosis	69	3	1
+GSE49541	72	Stage	72	32	32
+GSE59045	15		0	0	0
+GSE61260	134		0	0	0
+GSE63067	18		0	0	0
+GSE66676	67		0	0	0
+GSE83452	231		0	0	0
+GSE89632	63	fibrosis (stage)	56	8	4

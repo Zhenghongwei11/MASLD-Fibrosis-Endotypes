@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
+import textwrap
 
 import matplotlib
 
@@ -60,6 +61,20 @@ def _panel_label(ax: plt.Axes, s: str) -> None:
     )
 
 
+COHORT_LABELS = {
+    "GSE135251": "Govaere 2020 (GSE135251)",
+    "GSE163211": "Subudhi 2022 (GSE163211)",
+    "GSE162694": "Pantano 2021 (GSE162694)",
+    "GSE130970": "Hoang 2019 (GSE130970)",
+    "GSE49541": "Zhu 2016 (GSE49541)",
+    "GSE48452": "Moylan 2014 (GSE48452)",
+}
+
+
+def _cohort_label(dataset_id: str) -> str:
+    return COHORT_LABELS.get(str(dataset_id), str(dataset_id))
+
+
 def plot_study_design_schematic(out_dir: Path) -> list[Path]:
     """
     Figure 1 (schematic): study design + evidence chain overview.
@@ -70,7 +85,7 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
 
     from matplotlib.patches import FancyBboxPatch
 
-    fig = plt.figure(figsize=(7.2, 2.9))
+    fig = plt.figure(figsize=(7.6, 3.2))
     ax = fig.add_axes([0, 0, 1, 1])
     ax.axis("off")
 
@@ -99,8 +114,8 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
             ax.text((x0 + x1) / 2, (y0 + y1) / 2 + 0.02, label, ha="center", va="bottom", fontsize=7.8, color="#444444")
 
     # Layout in figure coordinates (0..1)
-    w, h = 0.22, 0.28
-    y_top = 0.62
+    w, h = 0.225, 0.24
+    y_top = 0.66
     # Keep a little extra right margin so bbox_inches='tight' doesn't clip the last box.
     x0 = 0.03
     dx = 0.235
@@ -111,7 +126,7 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
         w,
         h,
         "Cohort curation",
-        "Public GEO liver biopsies\nFibrosis stage extracted\nAdvanced fibrosis: ≥F3",
+        "Public liver biopsies\nFibrosis stage extracted\nAdvanced fibrosis: ≥F3",
         fc="#F8FAFC",
     )
     box(
@@ -120,7 +135,7 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
         w,
         h,
         "Endotype discovery",
-        "Discovery cohort\nNon-negative matrix\nfactorization (NMF)",
+        "Discovery cohort\nNMF rank 3\nTop-loading genes",
         fc="#F8FAFC",
     )
     box(
@@ -128,8 +143,8 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
         y_top,
         w,
         h,
-        "Signature definition",
-        "Top-loading genes\nper endotype\nCompact gene sets",
+        "Cross-cohort scoring",
+        "Within-cohort z scores\nGene coverage tracked\nFixed signatures",
         fc="#F8FAFC",
     )
     box(
@@ -137,8 +152,8 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
         y_top,
         w,
         h,
-        "Transfer scoring",
-        "Within-cohort\nstandardization (z)\nCoverage tracked",
+        "Primary association",
+        "Cohort-wise ORs\nRandom-effects synthesis\nPrediction intervals",
         fc="#F8FAFC",
     )
 
@@ -146,54 +161,174 @@ def plot_study_design_schematic(out_dir: Path) -> list[Path]:
     for i in range(3):
         arrow(x0 + (i + 1) * dx - 0.01, y_top + h / 2, x0 + (i + 1) * dx + 0.01, y_top + h / 2)
 
-    # Bottom row: evaluation modules
-    y_bot = 0.20
-    x_assoc = 0.18
-    x_trans = 0.52
-    x_plaus = 0.76
-    w_main = 0.30
-    w_plaus = 0.22
-    h_bot = 0.26
+    # Bottom row: interpretation and validation modules.
+    y_bot = 0.18
+    x_bench = 0.045
+    x_trans = 0.285
+    x_bio = 0.525
+    x_sens = 0.765
+    w_mod = 0.185
+    h_bot = 0.28
 
     box(
-        x_assoc,
+        x_bench,
         y_bot,
-        w_main,
+        w_mod,
         h_bot,
-        "Association & synthesis",
-        "Cohort-wise OR per 1-SD\nRandom-effects meta-analysis\nHeterogeneity (I²)",
+        "Signature benchmark",
+        "Published fibrosis and\nMASH/NASH signatures\nscored in same cohorts",
         fc="white",
     )
     box(
         x_trans,
         y_bot,
-        w_main,
+        w_mod,
         h_bot,
         "Transportability",
-        "Leave-one-cohort-out\nCalibration + DCA\nAUC with uncertainty",
+        "Leave-one-cohort-out\nAUC, calibration\nnet-benefit curves",
         fc="white",
     )
     box(
-        x_plaus,
+        x_bio,
         y_bot,
-        w_plaus,
+        w_mod,
         h_bot,
-        "Plausibility (descriptive)",
-        "Human liver scRNA atlas\nCell compartment localization",
+        "Biology annotation",
+        "Pathway enrichment\nhuman liver scRNA atlas\ncell compartments",
+        fc="white",
+    )
+    box(
+        x_sens,
+        y_bot,
+        w_mod,
+        h_bot,
+        "Discovery sensitivity",
+        "Alternate RNA-seq cohort\ncomponent overlap\nscore concordance",
         fc="white",
     )
 
-    # Downstream arrows from transfer scoring
-    # Diverging arrows from transfer scoring (reduce crossing for readability)
-    x_transfer = x0 + 3 * dx
-    arrow(x_transfer + 0.06, y_top, x_assoc + w_main / 2, y_bot + h_bot)
-    arrow(x_transfer + w / 2, y_top, x_trans + w_main / 2, y_bot + h_bot)
-    arrow(x_transfer + w - 0.06, y_top, x_plaus + w_plaus / 2, y_bot + h_bot)
+    x_primary = x0 + 3 * dx
+    for x_target in [x_bench, x_trans, x_bio, x_sens]:
+        arrow(x_primary + w / 2, y_top, x_target + w_mod / 2, y_bot + h_bot)
 
-    ax.text(0.02, 0.96, "Study design overview", ha="left", va="top", fontsize=10.2, fontweight="bold", color="#222222")
+    ax.text(0.02, 0.96, "Study design and evidence chain", ha="left", va="top", fontsize=10.2, fontweight="bold", color="#222222")
 
     pdf = out_dir / "Figure1_study_design.pdf"
     png = out_dir / "Figure1_study_design.png"
+    fig.savefig(pdf, bbox_inches="tight", pad_inches=0.06)
+    fig.savefig(png, dpi=300, bbox_inches="tight", pad_inches=0.06)
+    plt.close(fig)
+    return [pdf, png]
+
+
+def plot_sample_flow_diagram(
+    dataset_endpoints_summary_tsv: Path,
+    signature_coverage_tsv: Path,
+    out_dir: Path,
+) -> list[Path]:
+    """
+    Supplementary Figure S5: sample flow diagram for STROBE-style transparency.
+    Uses endpoints summary (stage availability) and signature coverage to summarize exclusions.
+    """
+    _apply_pub_style()
+    _ensure(out_dir)
+
+    df = pd.read_csv(dataset_endpoints_summary_tsv, sep="\t")
+    df["n_total"] = pd.to_numeric(df["n_total"], errors="coerce")
+    df["n_with_stage"] = pd.to_numeric(df["n_with_stage"], errors="coerce")
+
+    # Restrict to cohorts that appear in the transfer-coverage table (the analyzed landscape).
+    cov = pd.read_csv(signature_coverage_tsv, sep="\t") if signature_coverage_tsv.exists() else pd.DataFrame()
+    keep_cohorts = sorted(set(cov["dataset_id"].astype(str))) if not cov.empty else sorted(set(df["dataset_id"].astype(str)))
+    df = df[df["dataset_id"].astype(str).isin(keep_cohorts)].copy()
+
+    n_total = int(np.nansum(df["n_total"].to_numpy(dtype=float)))
+    n_stage = int(np.nansum(df["n_with_stage"].to_numpy(dtype=float)))
+    n_missing_stage = max(0, n_total - n_stage)
+
+    # Exclude cohorts with essentially zero signature coverage (mean across endotypes).
+    n_excluded_lowcov = 0
+    if not cov.empty:
+        cov["n_sig_genes_used"] = pd.to_numeric(cov["n_sig_genes_used"], errors="coerce")
+        cov["n_sig_genes_total"] = pd.to_numeric(cov["n_sig_genes_total"], errors="coerce")
+        cov["frac"] = cov["n_sig_genes_used"] / cov["n_sig_genes_total"].replace(0, np.nan)
+        mean_cov = cov.groupby("dataset_id", as_index=False)["frac"].mean()
+        low = mean_cov[mean_cov["frac"].fillna(0) < 0.10]["dataset_id"].astype(str).tolist()
+        if low:
+            n_excluded_lowcov = int(np.nansum(df[df["dataset_id"].astype(str).isin(low)]["n_with_stage"].to_numpy(dtype=float)))
+
+    n_included = max(0, n_stage - n_excluded_lowcov)
+
+    from matplotlib.patches import FancyBboxPatch
+
+    # Wider canvas + explicit gaps between boxes to avoid label overlap.
+    fig = plt.figure(figsize=(8.4, 2.6))
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.axis("off")
+
+    def box(x: float, y: float, w: float, h: float, title: str, body: str) -> None:
+        patch = FancyBboxPatch(
+            (x, y),
+            w,
+            h,
+            boxstyle="round,pad=0.012,rounding_size=0.02",
+            linewidth=0.9,
+            edgecolor="#222222",
+            facecolor="white",
+        )
+        ax.add_patch(patch)
+        ax.text(x + 0.02, y + h - 0.05, title, ha="left", va="top", fontsize=9.2, fontweight="bold", color="#222222")
+        ax.text(x + 0.02, y + h - 0.12, body, ha="left", va="top", fontsize=8.2, color="#222222", linespacing=1.15)
+
+    def arrow(x0: float, y0: float, x1: float, y1: float, label: str | None = None) -> None:
+        ax.annotate(
+            "",
+            xy=(x1, y1),
+            xytext=(x0, y0),
+            arrowprops={"arrowstyle": "-|>", "lw": 1.1, "color": "#222222", "shrinkA": 0, "shrinkB": 0},
+        )
+        if label:
+            ax.text((x0 + x1) / 2, (y0 + y1) / 2 + 0.02, label, ha="center", va="bottom", fontsize=8.0, color="#444444")
+
+    # Main flow
+    w, h = 0.27, 0.42
+    gap = 0.06
+    y = 0.43
+    x1 = 0.04
+    x2 = x1 + w + gap
+    x3 = x2 + w + gap
+    box(x1, y, w, h, "Selected GEO cohorts", f"Series-matrix samples\nTotal n={n_total}")
+    box(x2, y, w, h, "With fibrosis stage", f"Stage extracted\nn={n_stage}")
+    box(x3, y, w, h, "Included in analysis", f"Adequate coverage\nn={n_included}")
+
+    y_mid = y + h / 2
+    arrow(x1 + w, y_mid, x2, y_mid)
+    arrow(x2 + w, y_mid, x3, y_mid)
+    ax.text(
+        x1 + w + gap / 2,
+        y_mid - 0.14,
+        f"Exclude missing stage\n(n={n_missing_stage})",
+        ha="center",
+        va="center",
+        fontsize=7.6,
+        color="#444444",
+        linespacing=1.1,
+    )
+    ax.text(
+        x2 + w + gap / 2,
+        y_mid - 0.14,
+        f"Exclude low coverage\n(n={n_excluded_lowcov})",
+        ha="center",
+        va="center",
+        fontsize=7.6,
+        color="#444444",
+        linespacing=1.1,
+    )
+
+    ax.text(0.02, 0.93, "Sample inclusion flow", ha="left", va="top", fontsize=10.2, fontweight="bold", color="#222222")
+
+    pdf = out_dir / "FigureS5_flow_diagram.pdf"
+    png = out_dir / "FigureS5_flow_diagram.png"
     fig.savefig(pdf, bbox_inches="tight", pad_inches=0.06)
     fig.savefig(png, dpi=300, bbox_inches="tight", pad_inches=0.06)
     plt.close(fig)
@@ -327,7 +462,7 @@ def plot_cohort_landscape(cohort_landscape_tsv: Path, out_dir: Path) -> list[Pat
     axA.barh(y, total, color="#C9D5E6", label="Total (with stage)", height=0.62)
     axA.barh(y, events, color="#2F5597", label="Advanced fibrosis (≥F3)", height=0.62)
     axA.set_yticks(y)
-    axA.set_yticklabels(df["dataset_id"].astype(str).tolist(), fontsize=8.6)
+    axA.set_yticklabels([_cohort_label(x) for x in df["dataset_id"].astype(str)], fontsize=8.4)
     axA.invert_yaxis()
     axA.set_xlabel("Number of samples")
     axA.set_title("Sample size and event counts")
@@ -405,9 +540,10 @@ def plot_forest_meta(effect_tsv: Path, meta_tsv: Path, out_dir: Path) -> list[Pa
 
         ax.axvline(1.0, linestyle="--", color="gray", linewidth=1)
         ax.set_yticks(y)
-        ax.set_yticklabels(d["dataset_id"].astype(str).tolist() + ["Pooled"])
+        ax.set_yticklabels([_cohort_label(x) for x in d["dataset_id"].astype(str)] + ["Pooled"])
         ax.invert_yaxis()
         ax.set_xscale("log")
+        ax.set_xlim(0.08, 5.0)
         ax.grid(axis="x", linestyle=":", linewidth=0.6, alpha=0.6)
         _panel_label(ax, chr(ord("A") + idx))
 
@@ -529,7 +665,7 @@ def plot_loco_performance(loco_predictions_or_eval_tsv: Path, out_dir: Path) -> 
     y = np.arange(nrows)
 
     labels = [
-        f"{d} (n={n}, e={e})"
+        f"{_cohort_label(d)} (n={n}, e={e})"
         for d, n, e in zip(met["dataset_id"].tolist(), met["n"].tolist(), met["events"].tolist(), strict=True)
     ]
 
@@ -694,7 +830,7 @@ def plot_prediction_srt_style(loco_predictions_tsv: Path, out_dir: Path) -> list
     axA.set_xticks([0, 1])
     axA.set_xticklabels(["≤F2", "≥F3"], fontsize=9)
     axA.set_ylabel("Predicted risk (LOCO holdout)")
-    axA.set_title("A. Prediction (risk distribution)")
+    axA.set_title("Prediction (risk distribution)")
     axA.set_ylim(0, 1)
     axA.text(
         0.07,
@@ -775,7 +911,7 @@ def plot_prediction_srt_style(loco_predictions_tsv: Path, out_dir: Path) -> list
     ax.set_ylim(0, 1)
     ax.set_xlabel("Mean predicted risk")
     ax.set_ylabel("Observed event rate")
-    ax.set_title("B. Calibration (binned)")
+    ax.set_title("Calibration (binned)")
     ax.legend(loc="lower right", frameon=False, fontsize=8, ncol=1)
     _panel_label(ax, "B")
 
@@ -805,7 +941,7 @@ def plot_prediction_srt_style(loco_predictions_tsv: Path, out_dir: Path) -> list
 
     ax.set_xlabel("Threshold probability")
     ax.set_ylabel("Net benefit")
-    ax.set_title("C. Decision curve analysis")
+    ax.set_title("Decision curve analysis")
     ax.axhline(0.0, color="gray", linewidth=0.8)
     nb_min = float(np.nanmin(dca_all["net_benefit"].to_numpy(dtype=float)))
     nb_max = float(np.nanmax(dca_all["net_benefit"].to_numpy(dtype=float)))
@@ -831,11 +967,14 @@ def plot_prediction_srt_style(loco_predictions_tsv: Path, out_dir: Path) -> list
     ax.axvline(0.5, linestyle="--", color="gray", linewidth=1)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(
-        [f"{c} (n={n}, e={e})" for c, n, e in zip(auc_df["dataset_id"], auc_df["n"], auc_df["events"], strict=True)],
+        [
+            f"{_cohort_label(c)} (n={n}, e={e})"
+            for c, n, e in zip(auc_df["dataset_id"], auc_df["n"], auc_df["events"], strict=True)
+        ],
         fontsize=8.5,
     )
     ax.set_xlabel("AUC (bootstrap 95% CI)")
-    ax.set_title("D. Discrimination (holdout)")
+    ax.set_title("Discrimination (holdout)")
     ax.set_xlim(0.35, 1.0)
     ax.invert_yaxis()
     ax.grid(axis="x", linestyle=":", linewidth=0.6, alpha=0.6)
@@ -1067,48 +1206,291 @@ def plot_signature_coverage(signature_coverage_tsv: Path, out_dir: Path) -> list
     endotypes = sorted(df["endotype"].unique())
 
     mat = np.full((len(cohorts), len(endotypes)), fill_value=np.nan, dtype=float)
+    used_mat = np.full((len(cohorts), len(endotypes)), fill_value=np.nan, dtype=float)
     for i, c in enumerate(cohorts):
         for j, e in enumerate(endotypes):
             sub = df[(df["dataset_id"] == c) & (df["endotype"] == e)]
             if not sub.empty:
                 mat[i, j] = float(sub["frac"].iloc[0])
+                used_mat[i, j] = float(sub["n_sig_genes_used"].iloc[0])
 
     _apply_pub_style()
-    fig_h = max(3.0, 0.45 * len(cohorts))
+    fig_h = max(3.4, 0.46 * len(cohorts))
     fig, (axA, axB) = plt.subplots(
         nrows=1,
         ncols=2,
-        figsize=(7.2, fig_h),
-        gridspec_kw={"width_ratios": [1.2, 0.85], "wspace": 0.28},
+        figsize=(7.6, fig_h),
+        gridspec_kw={"width_ratios": [1.35, 0.9], "wspace": 0.36},
     )
 
-    im = axA.imshow(mat, aspect="auto", vmin=0.0, vmax=1.0, cmap="Blues")
+    xs, ys, vals, sizes = [], [], [], []
+    for i in range(len(cohorts)):
+        for j in range(len(endotypes)):
+            if np.isfinite(mat[i, j]):
+                xs.append(j)
+                ys.append(i)
+                vals.append(mat[i, j])
+                sizes.append(180 + 360 * mat[i, j])
+    sc = axA.scatter(
+        xs,
+        ys,
+        c=vals,
+        s=sizes,
+        cmap="viridis",
+        vmin=0.92,
+        vmax=1.0,
+        edgecolors="#222222",
+        linewidths=0.45,
+    )
+    axA.set_xlim(-0.55, len(endotypes) - 0.45)
+    axA.set_ylim(len(cohorts) - 0.55, -0.55)
     axA.set_xticks(np.arange(len(endotypes)))
-    axA.set_xticklabels([_pretty_endotype_label(e) for e in endotypes], rotation=20, ha="right", fontsize=8.8)
+    axA.set_xticklabels([_pretty_endotype_label(e) for e in endotypes], rotation=0, ha="center", fontsize=8.4)
     axA.set_yticks(np.arange(len(cohorts)))
-    axA.set_yticklabels(cohorts, fontsize=8.8)
-    axA.set_title("Coverage by cohort × endotype")
-    cbar = fig.colorbar(im, ax=axA, fraction=0.046, pad=0.02)
-    cbar.set_label("Fraction of signature genes used")
+    axA.set_yticklabels([_cohort_label(c) for c in cohorts], fontsize=8.4)
+    axA.set_title("Signature coverage by cohort", fontsize=9.2)
+    axA.set_xlabel("Transferred endotype signature")
+    axA.set_facecolor("#FAFAFA")
+    axA.grid(which="major", color="#E9E9E9", linewidth=0.7)
+    for i in range(len(cohorts)):
+        for j in range(len(endotypes)):
+            if np.isfinite(mat[i, j]):
+                pct = int(round(100 * mat[i, j]))
+                used = int(round(used_mat[i, j])) if np.isfinite(used_mat[i, j]) else 0
+                text_color = "white" if mat[i, j] < 0.975 else "#111111"
+                axA.text(j, i, f"{pct}%\n{used}/60", ha="center", va="center", fontsize=6.4, color=text_color)
+    cbar = fig.colorbar(sc, ax=axA, fraction=0.046, pad=0.02)
+    cbar.set_label("Coverage", fontsize=8.2)
     _panel_label(axA, "A")
 
     mean_cov = np.nanmean(mat, axis=1)
     y = np.arange(len(cohorts))
-    axB.barh(y, mean_cov, color="#2F5597", alpha=0.85)
-    axB.set_yticks([])
+    axB.scatter(mean_cov, y, s=34, color="#0072B2", edgecolors="#222222", linewidths=0.3, zorder=3)
+    for yy, v in zip(y, mean_cov, strict=True):
+        axB.plot([0.92, v], [yy, yy], color="#9AA4AA", linewidth=1.0, zorder=2)
+        axB.text(min(1.002, v + 0.004), yy, f"{v*100:.1f}%", va="center", ha="left", fontsize=7.0, color="#222222")
+    axB.set_yticks(y)
+    axB.set_yticklabels([])
+    axB.tick_params(axis="y", left=False, labelleft=False)
     axB.invert_yaxis()
     axB.spines["left"].set_visible(False)
     axB.set_xlabel("Mean coverage")
-    axB.set_xlim(0, 1.0)
+    axB.set_xlim(0.92, 1.03)
+    axB.set_xticks([0.925, 0.95, 0.975, 1.0])
     axB.grid(axis="x", linestyle=":", linewidth=0.6, alpha=0.6)
-    axB.set_title("Mean across endotypes")
+    axB.set_title("Mean across endotypes", fontsize=9.2)
     _panel_label(axB, "B")
 
-    fig.suptitle("Transfer scoring coverage (signature gene availability)", y=1.01, fontsize=10.5)
+    fig.suptitle("Transfer scoring coverage", y=1.01, fontsize=9.8)
     fig.tight_layout()
 
     pdf = out_dir / "Figure4_signature_gene_coverage.pdf"
     png = out_dir / "Figure4_signature_gene_coverage.png"
+    fig.savefig(pdf, bbox_inches="tight")
+    fig.savefig(png, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    return [pdf, png]
+
+
+def plot_signature_benchmarking(
+    endotype_meta_tsv: Path,
+    prior_meta_tsv: Path,
+    correlations_tsv: Path,
+    out_dir: Path,
+) -> list[Path]:
+    if not endotype_meta_tsv.exists() or not prior_meta_tsv.exists() or not correlations_tsv.exists():
+        return []
+    endo = pd.read_csv(endotype_meta_tsv, sep="\t")
+    prior = pd.read_csv(prior_meta_tsv, sep="\t")
+    corr = pd.read_csv(correlations_tsv, sep="\t")
+    if endo.empty or prior.empty:
+        return []
+    _ensure(out_dir)
+    _apply_pub_style()
+
+    selected = [
+        "Endotype 1",
+        "Fibrosis signature",
+        "NASH signature",
+        "HSC TGF-beta signature",
+        "Macrophages C2",
+        "Profibrotic Macrophages",
+        "Hepatocytes",
+    ]
+    e1 = endo[endo["feature"].astype(str) == "endotype_1"].copy()
+    rows = []
+    if not e1.empty:
+        r = e1.iloc[0]
+        rows.append(
+            {
+                "label": "Endotype 1",
+                "or_pooled": float(r["or_pooled"]),
+                "ci_lower": float(r["ci_lower"]),
+                "ci_upper": float(r["ci_upper"]),
+                "k": int(r["k"]),
+                "median_auc": np.nan,
+            }
+        )
+    for sig in selected[1:]:
+        d = prior[prior["signature"].astype(str) == sig]
+        if d.empty:
+            continue
+        r = d.iloc[0]
+        rows.append(
+            {
+                "label": sig,
+                "or_pooled": float(r["or_pooled"]),
+                "ci_lower": float(r["ci_lower"]),
+                "ci_upper": float(r["ci_upper"]),
+                "k": int(r["k"]),
+                "median_auc": float(r["median_auc"]),
+            }
+        )
+    plot_df = pd.DataFrame(rows)
+    plot_df["label"] = pd.Categorical(plot_df["label"], categories=selected, ordered=True)
+    plot_df = plot_df.sort_values("label")
+
+    fig, (axA, axB) = plt.subplots(
+        nrows=1,
+        ncols=2,
+        figsize=(8.2, 4.0),
+        gridspec_kw={"width_ratios": [1.25, 1.0], "wspace": 0.35},
+    )
+
+    y = np.arange(plot_df.shape[0])
+    x = plot_df["or_pooled"].to_numpy(float)
+    lo = plot_df["ci_lower"].to_numpy(float)
+    hi = plot_df["ci_upper"].to_numpy(float)
+    colors = ["#2F5597" if lab == "Endotype 1" else "#777777" for lab in plot_df["label"].astype(str)]
+    axA.errorbar(x, y, xerr=[x - lo, hi - x], fmt="none", ecolor="#444444", elinewidth=1.0, capsize=2.5)
+    axA.scatter(x, y, s=38, c=colors, edgecolors="#222222", linewidths=0.3, zorder=3)
+    axA.axvline(1.0, linestyle="--", color="#999999", linewidth=1.0)
+    axA.set_xscale("log")
+    axA.set_yticks(y)
+    axA.set_yticklabels(plot_df["label"].astype(str), fontsize=8.2)
+    axA.invert_yaxis()
+    axA.set_xlabel("Pooled OR for advanced fibrosis")
+    axA.set_title("Published signature benchmark", fontsize=9.5)
+    axA.grid(axis="x", linestyle=":", linewidth=0.6, alpha=0.65)
+    _panel_label(axA, "A")
+
+    corr_sel = corr[corr["signature"].isin(selected[1:])].copy()
+    if not corr_sel.empty:
+        summary = (
+            corr_sel.groupby("signature", as_index=False)
+            .agg(median_r=("pearson_r", "median"), q1=("pearson_r", lambda s: s.quantile(0.25)), q3=("pearson_r", lambda s: s.quantile(0.75)), n=("pearson_r", "count"))
+        )
+        summary["signature"] = pd.Categorical(summary["signature"], categories=selected[1:], ordered=True)
+        summary = summary.sort_values("signature")
+        yy = np.arange(summary.shape[0])
+        med = summary["median_r"].to_numpy(float)
+        q1 = summary["q1"].to_numpy(float)
+        q3 = summary["q3"].to_numpy(float)
+        axB.errorbar(med, yy, xerr=[med - q1, q3 - med], fmt="o", color="#2F5597", ecolor="#777777", capsize=2.5, markersize=4.2)
+        axB.axvline(0, linestyle="--", color="#999999", linewidth=1.0)
+        axB.set_yticks(yy)
+        axB.set_yticklabels(summary["signature"].astype(str), fontsize=8.2)
+        axB.invert_yaxis()
+        axB.set_xlim(-1, 1)
+        axB.set_xlabel("Correlation with Endotype 1")
+        axB.set_title("Score concordance with Endotype 1", fontsize=9.5)
+        axB.grid(axis="x", linestyle=":", linewidth=0.6, alpha=0.65)
+    _panel_label(axB, "B")
+
+    fig.tight_layout()
+    pdf = out_dir / "Figure5_signature_benchmarking.pdf"
+    png = out_dir / "Figure5_signature_benchmarking.png"
+    fig.savefig(pdf, bbox_inches="tight")
+    fig.savefig(png, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    return [pdf, png]
+
+
+def plot_pathway_annotation(enrichment_tsv: Path, out_dir: Path) -> list[Path]:
+    if not enrichment_tsv.exists():
+        return []
+    df = pd.read_csv(enrichment_tsv, sep="\t")
+    if df.empty:
+        return []
+    _ensure(out_dir)
+    _apply_pub_style()
+
+    # Keep the strongest non-duplicated terms per endotype for a compact supplement.
+    def clean_term(s: str) -> str:
+        s = str(s).split(" R-HSA-")[0]
+        s = s.replace("MSigDB Hallmark 2020", "").strip()
+        s = s.replace("Response To Elevated Platelet Cytosolic Ca2+", "Platelet Ca2+ response")
+        s = s.replace("Platelet Activation, Signaling And Aggregation", "Platelet activation and aggregation")
+        s = s.replace("Formation Of Fibrin Clot (Clotting Cascade)", "Fibrin clot formation")
+        s = s.replace("Post-translational Protein Phosphorylation", "Protein phosphorylation")
+        s = s.replace("Binding And Uptake Of Ligands By Scavenger Receptors", "Scavenger receptor ligand uptake")
+        s = s.replace("Regulation Of IGF Transport And Uptake By IGFBPs", "IGF transport by IGFBPs")
+        return textwrap.fill(s[:58], width=26)
+
+    rows = []
+    term_order: list[str] = []
+    for e, d in df.sort_values(["fdr", "pvalue"]).groupby("endotype"):
+        seen: set[str] = set()
+        for _, r in d.iterrows():
+            term = clean_term(r["gene_set"])
+            key = term.lower().replace(" ", "")
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append({**r.to_dict(), "term": term})
+            if term not in term_order:
+                term_order.append(term)
+            if len(seen) >= 6:
+                break
+    plot_df = pd.DataFrame(rows)
+    if plot_df.empty:
+        return []
+
+    endotypes = sorted(plot_df["endotype"].astype(str).unique())
+    term_order = sorted(term_order, key=lambda t: (plot_df.loc[plot_df["term"] == t, "fdr"].min(), t), reverse=True)
+    term_to_y = {term: i for i, term in enumerate(term_order)}
+    endo_to_x = {e: i for i, e in enumerate(endotypes)}
+    plot_df["x"] = plot_df["endotype"].map(endo_to_x)
+    plot_df["y"] = plot_df["term"].map(term_to_y)
+    plot_df["score"] = -np.log10(plot_df["fdr"].clip(lower=1e-300))
+
+    fig_h = max(4.0, 0.25 * len(term_order) + 1.2)
+    fig, ax = plt.subplots(figsize=(7.6, fig_h))
+    size = 30 + 28 * plot_df["overlap_size"].to_numpy(float)
+    sc = ax.scatter(
+        plot_df["x"],
+        plot_df["y"],
+        s=size,
+        c=plot_df["score"],
+        cmap="cividis",
+        edgecolors="#222222",
+        linewidths=0.35,
+        vmin=max(0, float(plot_df["score"].min()) - 0.25),
+        vmax=float(plot_df["score"].max()),
+    )
+    ax.set_xticks(range(len(endotypes)))
+    ax.set_xticklabels([_pretty_endotype_label(e) for e in endotypes], fontsize=8.6)
+    ax.set_yticks(range(len(term_order)))
+    ax.set_yticklabels(term_order, fontsize=6.8)
+    ax.set_xlim(-0.55, len(endotypes) - 0.45)
+    ax.set_ylim(-0.7, len(term_order) - 0.3)
+    ax.set_xlabel("Endotype signature")
+    ax.set_title("Pathway enrichment profile", fontsize=9.5)
+    ax.grid(color="#E7E7E7", linewidth=0.65)
+    ax.set_facecolor("#FAFAFA")
+    _panel_label(ax, "A")
+    cbar = fig.colorbar(sc, ax=ax, fraction=0.04, pad=0.02)
+    cbar.set_label("-log10(FDR)")
+    handles = []
+    labels = []
+    for ov in [4, 8, 14]:
+        handles.append(ax.scatter([], [], s=30 + 28 * ov, color="#C8C8C8", edgecolors="#222222", linewidths=0.35))
+        labels.append(str(ov))
+    ax.legend(handles, labels, title="Overlap genes", frameon=False, loc="lower right", bbox_to_anchor=(1.0, 0.0))
+    fig.tight_layout()
+
+    pdf = out_dir / "FigureS2_pathway_annotation.pdf"
+    png = out_dir / "FigureS2_pathway_annotation.png"
     fig.savefig(pdf, bbox_inches="tight")
     fig.savefig(png, dpi=300, bbox_inches="tight")
     plt.close(fig)

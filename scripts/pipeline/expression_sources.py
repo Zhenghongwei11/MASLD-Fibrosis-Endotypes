@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import gzip
+import re
 import tarfile
 from pathlib import Path
 from typing import Iterable
@@ -16,6 +17,9 @@ from .geo_series_matrix import read_expression_matrix, read_series_matrix_header
 from .gpl_annotation import load_probe_to_symbol_map
 
 
+_AFFY_PROBE_RE = re.compile(r"^\d+(_[a-z]+)?_at$", re.IGNORECASE)
+
+
 def _zscore_rows(df: pd.DataFrame) -> pd.DataFrame:
     mu = df.mean(axis=1)
     sd = df.std(axis=1, ddof=0).replace(0, np.nan)
@@ -25,6 +29,20 @@ def _zscore_rows(df: pd.DataFrame) -> pd.DataFrame:
 def _coerce_numeric(df: pd.DataFrame) -> pd.DataFrame:
     out = df.apply(pd.to_numeric, errors="coerce")
     return out
+
+
+def _looks_like_gene_symbol(feature_id: str) -> bool:
+    fid = (feature_id or "").strip()
+    if not fid:
+        return False
+    # Common platform/probe identifiers must go through GPL annotation. In
+    # particular, Affymetrix U133 probe sets such as 1007_s_at contain letters
+    # but are not gene symbols.
+    if fid.startswith(("ILMN_", "A_", "Hs.", "hsa-")):
+        return False
+    if _AFFY_PROBE_RE.match(fid):
+        return False
+    return any(c.isalpha() for c in fid)
 
 
 def _geo_series_suppl_dir_url(gse: str) -> str:
@@ -51,11 +69,10 @@ def load_expression_from_series_matrix_gene_symbols(
     if table_sample_ids and table_sample_ids != sample_ids:
         sample_ids = table_sample_ids
 
-    # Heuristic: if most feature ids look like gene symbols, treat as already-gene
-    looks_gene = 0
-    for fid in feature_ids[:200]:
-        if fid and any(c.isalpha() for c in fid) and not fid.startswith(("ILMN_", "A_", "Hs.", "hsa-")):
-            looks_gene += 1
+    # Heuristic: if most feature ids look like gene symbols, treat as already-gene.
+    # Probe-like IDs should be mapped with the platform annotation even when they
+    # contain alphabetic suffixes.
+    looks_gene = sum(1 for fid in feature_ids[:200] if _looks_like_gene_symbol(str(fid)))
     as_gene = looks_gene >= max(20, int(0.6 * min(200, len(feature_ids))))
 
     expr = pd.DataFrame(values, index=pd.Index(feature_ids, name="feature"), columns=sample_ids)

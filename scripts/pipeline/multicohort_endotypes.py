@@ -360,11 +360,16 @@ def run(
     meta = pd.DataFrame(meta_rows).sort_values("feature")
     meta.to_csv(effect_dir / "meta_analysis_endotype_f3plus.tsv", sep="\t", index=False)
 
-    # LOCO prediction (train on all other cohorts, test on held-out cohort)
+    # LOCO prediction (train on all other cohorts, test on held-out cohort).
+    # Use the fibrogenic Endotype 1 score as the primary transportability check.
+    # The three endotype scores are often strongly correlated in transferred
+    # cohorts, so a multivariable score is treated as unstable rather than used
+    # as the main reviewer-facing prediction model.
     score_df = pd.DataFrame(score_rows)
     if not score_df.empty:
         loco_rows: list[dict[str, Any]] = []
         pred_rows: list[dict[str, Any]] = []
+        coef_rows: list[dict[str, Any]] = []
         for holdout in sorted(score_df["dataset_id"].unique()):
             te = score_df[score_df["dataset_id"] == holdout].copy()
             tr = score_df[score_df["dataset_id"] != holdout].copy()
@@ -377,7 +382,7 @@ def run(
             te = te.join(y_te.rename("y")).dropna(subset=["y"])
             tr = tr.join(y_tr.rename("y")).dropna(subset=["y"])
 
-            features = sorted(sigs.keys())
+            features = ["endotype_1"]
             teX = te[features].to_numpy(dtype=float)
             trX = tr[features].to_numpy(dtype=float)
             tey = te["y"].to_numpy(dtype=int)
@@ -407,7 +412,7 @@ def run(
                         "sample_id": str(sid),
                         "y_f3plus": int(yv),
                         "p": float(pv),
-                        "model": "logistic_regression:endotype_scores",
+                        "model": "logistic_regression:endotype_1",
                     }
                 )
 
@@ -423,9 +428,23 @@ def run(
                     "events_train": int(tr_y.sum()),
                 }
             )
+
+            # Save fold-specific coefficients for reproducibility (features are standardized within cohort).
+            row: dict[str, Any] = {
+                "holdout_dataset_id": holdout,
+                "model": "logistic_regression:endotype_1",
+                "intercept": float(clf.intercept_[0]),
+                "n_train": int(len(tr_y)),
+                "events_train": int(tr_y.sum()),
+            }
+            for name, coef in zip(features, clf.coef_[0].tolist(), strict=True):
+                row[f"coef_{name}"] = float(coef)
+            coef_rows.append(row)
         loco = pd.DataFrame(loco_rows)
         loco.to_csv(bench_dir / "loco_prediction_eval.tsv", sep="\t", index=False)
         pd.DataFrame(pred_rows).to_csv(bench_dir / "loco_predictions.tsv", sep="\t", index=False)
+        if coef_rows:
+            pd.DataFrame(coef_rows).to_csv(bench_dir / "loco_model_coefficients.tsv", sep="\t", index=False)
 
         # Spec-facing prediction eval table
         pred = loco.rename(columns={"holdout_dataset_id": "dataset_id", "n_test": "n"}).copy()
