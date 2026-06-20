@@ -40,8 +40,8 @@ def _now_run_id() -> str:
     return dt.datetime.now().strftime("%Y%m%d-%H%M%S")
 
 
-def _write_audit(run_id: str, payload: dict) -> None:
-    out_dir = REPO_ROOT / "docs" / "audit_runs" / run_id
+def _write_run_metadata(run_id: str, payload: dict) -> None:
+    out_dir = REPO_ROOT / "docs" / "run_metadata" / run_id
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "run.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
@@ -71,8 +71,8 @@ def stage_results(run_id: str) -> None:
     # 3b) Orthogonal evidence (optional): liver scRNA cell-type localization
     run_scrna_localization(REPO_ROOT, allow_download=True)
 
-    # 4) BMC Genomics upgrade analyses: prior signatures, pathway annotation,
-    # and discovery-cohort dependence checks.
+    # 4) Cross-cohort benchmarking, pathway annotation, and discovery-cohort
+    # dependence checks.
     run_signature_benchmarking(REPO_ROOT)
     run_endotype_enrichment(REPO_ROOT)
     run_discovery_sensitivity(REPO_ROOT)
@@ -80,7 +80,7 @@ def stage_results(run_id: str) -> None:
     # 5) Robustness grid (fast enough for local full runs; also used for Figure 5)
     subprocess.run([sys.executable, str(REPO_ROOT / "scripts" / "pipeline" / "robustness_gse163211.py")], check=True)
 
-    _write_audit(run_id, {"stage": "results", "ok": True})
+    _write_run_metadata(run_id, {"stage": "results", "ok": True})
 
 
 def stage_figures(run_id: str) -> None:
@@ -113,12 +113,12 @@ def stage_figures(run_id: str) -> None:
         REPO_ROOT / "results" / "scrna" / "GSE115469_endotype_celltype_localization.tsv",
         out_dir,
     )
-    _write_audit(run_id, {"stage": "figures", "ok": True})
+    _write_run_metadata(run_id, {"stage": "figures", "ok": True})
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="End-to-end pipeline runner (data -> results -> plots).")
-    ap.add_argument("--run-id", default=_now_run_id(), help="Run identifier for audit bundle output.")
+    ap.add_argument("--run-id", default=_now_run_id(), help="Run identifier for recorded pipeline metadata.")
     ap.add_argument("--stage", choices=["results", "figures", "all"], default="all")
     args = ap.parse_args()
 

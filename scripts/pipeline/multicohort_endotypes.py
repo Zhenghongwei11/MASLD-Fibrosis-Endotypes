@@ -363,8 +363,8 @@ def run(
     # LOCO prediction (train on all other cohorts, test on held-out cohort).
     # Use the fibrogenic Endotype 1 score as the primary transportability check.
     # The three endotype scores are often strongly correlated in transferred
-    # cohorts, so a multivariable score is treated as unstable rather than used
-    # as the main reviewer-facing prediction model.
+    # cohorts, so a multivariable score is treated as unstable for
+    # cross-cohort transportability assessment.
     score_df = pd.DataFrame(score_rows)
     if not score_df.empty:
         loco_rows: list[dict[str, Any]] = []

@@ -6,5 +6,5 @@ __pycache__/
 data/geo_cache/
 data/geo_suppl/
 data/references/
-docs/audit_runs/
+docs/run_metadata/
 results/endpoints/sample_endpoints.tsv

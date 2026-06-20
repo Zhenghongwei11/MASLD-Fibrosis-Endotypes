@@ -881,7 +881,7 @@ def plot_prediction_srt_style(loco_predictions_tsv: Path, out_dir: Path) -> list
             zorder=3,
         )
 
-    # Calibration slope/intercept (pooled) for quick reviewer-facing context
+    # Pooled calibration summary.
     try:
         from sklearn.linear_model import LogisticRegression
 
