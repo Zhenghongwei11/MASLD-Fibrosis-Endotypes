@@ -1,0 +1,12 @@
+figure_file	script	anchor_tables
+plots/publication/Figure1_study_design.pdf	scripts/pipeline/plots.py	(schematic)
+plots/publication/Figure1_cohort_landscape.pdf	scripts/pipeline/plots.py	results/figures/cohort_landscape.tsv
+plots/publication/Figure2_forest_meta.pdf	scripts/pipeline/plots.py	results/endotypes/endotype_fibrosis_effects_multicohort.tsv|results/effect_sizes/meta_analysis_endotype_f3plus.tsv
+plots/publication/Figure3_loco_prediction.pdf	scripts/pipeline/plots.py	results/benchmarks/prediction_eval.tsv
+plots/publication/Figure4_signature_gene_coverage.pdf	scripts/pipeline/plots.py	results/figures/signature_coverage.tsv
+plots/publication/Figure5_signature_benchmarking.pdf	scripts/pipeline/plots.py	results/effect_sizes/meta_analysis_endotype_f3plus.tsv|results/benchmarking/prior_signature_meta_analysis.tsv|results/benchmarking/endotype_prior_signature_correlations.tsv
+plots/publication/Figure5_robustness_nmf_sensitivity.pdf	scripts/pipeline/plots.py	results/robustness/nmf_sensitivity.tsv
+plots/publication/Figure6_prediction_beyond_roc.pdf	scripts/pipeline/plots.py	results/benchmarks/loco_predictions.tsv
+plots/publication/Figure7_scrna_localization.pdf	scripts/pipeline/plots.py	results/scrna/GSE115469_endotype_celltype_localization.tsv|results/scrna/GSE115469_gene_celltype_expression.tsv
+plots/publication/FigureS2_pathway_annotation.pdf	scripts/pipeline/plots.py	results/enrichment/endotype_pathway_enrichment.tsv
+plots/publication/FigureS5_flow_diagram.pdf	scripts/pipeline/plots.py	results/endpoints/dataset_endpoints_summary.tsv|results/figures/signature_coverage.tsv

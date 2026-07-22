@@ -1,0 +1,8 @@
+dataset_id	platform_id	input_scale	expression_transformation	scoring_scale
+GSE163211	GPL29503	processed targeted NanoString series-matrix values	log1p(non-negative expression) for NMF discovery; processed values for transfer coverage	within-cohort gene-wise z-score followed by signature mean
+GSE48452	GPL11532	processed GEO series-matrix values	as supplied by GEO series matrix after probe-to-gene aggregation	within-cohort gene-wise z-score followed by signature mean
+GSE49541	GPL570	processed GEO series-matrix values	as supplied by GEO series matrix after probe-to-gene aggregation	within-cohort gene-wise z-score followed by signature mean
+GSE89632	GPL14951	processed GEO series-matrix values	as supplied by GEO series matrix after probe-to-gene aggregation	within-cohort gene-wise z-score followed by signature mean
+GSE130970	GPL16791	TPM	log2(TPM+1)	within-cohort gene-wise z-score followed by signature mean
+GSE162694	GPL21290	raw counts	library-size CPM then log2(CPM+1)	within-cohort gene-wise z-score followed by signature mean
+GSE135251	GPL18573	raw counts	library-size CPM then log2(CPM+1)	within-cohort gene-wise z-score followed by signature mean

@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.cache/
+data/geo_cache/
+data/geo_suppl/
+data/references/*
+!data/references/prior_signatures/
+!data/references/prior_signatures/he_2023_signature_definitions.tsv
+docs/run_metadata/

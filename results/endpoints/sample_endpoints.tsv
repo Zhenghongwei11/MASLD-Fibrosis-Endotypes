@@ -1,0 +1,964 @@
+dataset_id	sample_id	fibrosis_stage	stage_key	stage_raw	eligible_f3plus	parse_status	exclusion_reason
+GSE130970	GSM3758005	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758006	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758007	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758008	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758009	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758010	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758011	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758012	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758013	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758014	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758015	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758016	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758017	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758018	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758019	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758020	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758021	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758022	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758023	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758024	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758025	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758026	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758027	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758028	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758029	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758030	2	fibrosis stage	2	1	explicit_stage	
+GSE130970	GSM3758031	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758032	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758033	4	fibrosis stage	4	1	explicit_stage	
+GSE130970	GSM3758034	4	fibrosis stage	4	1	explicit_stage	
+GSE130970	GSM3758035	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758036	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758037	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758038	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758039	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758040	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758041	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758042	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758043	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758044	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758045	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758046	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758047	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758048	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758049	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758050	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758051	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758052	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758053	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758054	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758055	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758056	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758057	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758058	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758059	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758060	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758061	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758062	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758063	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758064	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758065	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758066	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758067	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758068	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758069	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758070	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758071	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758072	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758073	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758074	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758075	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758076	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758077	0	fibrosis stage	0	1	explicit_stage	
+GSE130970	GSM3758078	3	fibrosis stage	3	1	explicit_stage	
+GSE130970	GSM3758079	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758080	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758081	1	fibrosis stage	1	1	explicit_stage	
+GSE130970	GSM3758082	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998167	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998168	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998169	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998170	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998171	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998172	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998173	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998174	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998175	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998176	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998177	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998178	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998179	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998180	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998181	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998182	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998183	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998184	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998185	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998186	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998187	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998188	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998189	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998190	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998191	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998192	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998193	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998194	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998195	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998196	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998197	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998198	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998199	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998200	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998201	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998202	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998203	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998204	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998205	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998206	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998207	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998208	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998209	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998210	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998211	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998212	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998213	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998214	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998215	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998216	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998217	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998218	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998219	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998220	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998221	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998222	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998223	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998224	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998225	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998226	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998227	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998228	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998229	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998230	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998231	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998232	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998233	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998234	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998235	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998236	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998237	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998238	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998239	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998240	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998241	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998242	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998243	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998244	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998245	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998246	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998247	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998248	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998249	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998250	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998251	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998252	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998253	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998254	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998255	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998256	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998257	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998258	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998259	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998260	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998261	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998262	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998263	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998264	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998265	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998266	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998267	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998268	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998269	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998270	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998271	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998272	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998273	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998274	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998275	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998276	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998277	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998278	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998279	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998280	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998281	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998282	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998283	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998284	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998285	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998286	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998287	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998288	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998289	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998290	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998291	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998292	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998293	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998294	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998295	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998296	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998297	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998298	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998299	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998300	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998301	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998302	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998303	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998304	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998305	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998306	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998307	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998308	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998309	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998310	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998311	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998312	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998313	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998314	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998315	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998316	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998317	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998318	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998319	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998320	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998321	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998322	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998323	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998324	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998325	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998326	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998327	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998328	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998329	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998330	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998331	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998332	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998333	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998334	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998335	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998336	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998337	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998338	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998339	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998340	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998341	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998342	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998343	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998344	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998345	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998346	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998347	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998348	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998349	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998350	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998351	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998352	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998353	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998354	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998355	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998356	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998357	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998358	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998359	4	fibrosis stage	4	1	explicit_stage	
+GSE135251	GSM3998360	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998361	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998362	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998363	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998364	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998365	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998366	0	fibrosis stage	0	1	explicit_stage	
+GSE135251	GSM3998367	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998368	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998369	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998370	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998371	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998372	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998373	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998374	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998375	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998376	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998377	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998378	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998379	3	fibrosis stage	3	1	explicit_stage	
+GSE135251	GSM3998380	1	fibrosis stage	1	1	explicit_stage	
+GSE135251	GSM3998381	2	fibrosis stage	2	1	explicit_stage	
+GSE135251	GSM3998382	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957321	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957322	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957323		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957324	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957325	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957326		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957327	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957328	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957329	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957330		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957331		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957332	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957333	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957334	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957335	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957336		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957337	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957338	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957339	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957340	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957341	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957342	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957343	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957344	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957345	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957346	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957347	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957348	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957349	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957350	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957351	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957352	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957353	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957354	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957355	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957356	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957357	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957358		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957359	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957360	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957361	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957362	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957363	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957364	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957365	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957366	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957367	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957368	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957369	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957370	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957371	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957372	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957373	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957374	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957375	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957376	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957377	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957378	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957379	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957380	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957381	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957382	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957383	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957384	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957385	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957386	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957387	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957388	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957389	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957390	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957391		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957392	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957393	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957394	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957395	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957396	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957397	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957398		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957399	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957400	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957401	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957402		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957403	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957404		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957405	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957406		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957407	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957408	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957409		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957410	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957411	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957412	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957413		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957414	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957415	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957416	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957417	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957418		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957419	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957420	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957421		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957422	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957423		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957424	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957425		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957426	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957427		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957428	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957429		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957430		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957431	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957432	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957433	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957434		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957435		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957436	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957437		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957438		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957439		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957440		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957441		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957442	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957443	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957444		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957445	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957446	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957447	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957448	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957449	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957450	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957451	4	fibrosis stage	4	1	explicit_stage	
+GSE162694	GSM4957452	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957453		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957454	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957455	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957456		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE162694	GSM4957457	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957458	3	fibrosis stage	3	1	explicit_stage	
+GSE162694	GSM4957459	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957460	2	fibrosis stage	2	1	explicit_stage	
+GSE162694	GSM4957461	0	fibrosis stage	0	1	explicit_stage	
+GSE162694	GSM4957462	1	fibrosis stage	1	1	explicit_stage	
+GSE162694	GSM4957463		fibrosis stage	normal liver histology	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974854		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974855		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974856		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974857		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974858		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974859		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974860		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974861		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974862		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974863		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974864		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974865		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974866		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974867	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974868	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974869	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974870	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974871	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974872		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974873		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974874		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974875		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974876		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974877		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974878		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974879		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974880		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974881		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974882		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974883	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974884		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974885		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974886		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974887	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974888		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974889		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974890		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974891		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974892	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974893		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974894		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974895		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974896		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974897		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974898		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974899		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974900		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974901		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974902		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974903		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974904		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974905		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974906		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974907		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974908		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974909		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974910		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974911		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974912		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974913		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974914		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974915		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974916		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974917	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974918		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974919		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974920		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974921		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974922		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974923		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974924		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974925	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974926		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974927		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974928		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974929		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974930		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974931		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974932		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974933	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974934		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974935	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974936	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974937		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974938		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974939		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974940		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974941		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974942		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974943		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974944	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974945		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974946		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974947		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974948		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974949		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974950		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974951		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974952		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974953		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974954		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974955		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974956		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974957		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974958		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974959		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974960		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974961		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974962		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974963		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974964		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974965		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974966		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974967		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974968		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974969	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974970		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974971		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974972		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974973		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974974	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974975		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974976		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974977	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974978		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974979		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974980		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974981	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974982	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974983		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974984		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974985		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974986		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974987		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974988		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974989		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974990		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974991		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974992		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974993		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974994		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4974995	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974996	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4974997		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974998		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4974999		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975000		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975001		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975002	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975003		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975004	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975005		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975006	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975007	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975008	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975009		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975010		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975011		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975012		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975013	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975014		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975015	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975016	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975017		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975018	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975019		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975020		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975021	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975022		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975023	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975024	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975025		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975026		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975027		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975028		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975029	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975030	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975031		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975032		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975033	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975034	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975035	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975036	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975037		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975038		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975039	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975040	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975041		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975042	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975043		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975044	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975045		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975046		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975047	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975048	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975049		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975050		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975051	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975052		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975053		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975054	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975055	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975056		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975057		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975058	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975059	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975060	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975061		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975062		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975063		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975064		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975065	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975066		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975067		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975068		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975069	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975070		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975071		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975072	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975073	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975074	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975075		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975076	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975077		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975078	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975079	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975080		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975081	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975082		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975083	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975084		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975085		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975086		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975087	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975088		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975089		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975090		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975091		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975092		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975093		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975094		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975095		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975096		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975097		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975098		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975099		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975100		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975101		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975102		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975103		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975104		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975105		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975106		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975107		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975108	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975109		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975110		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975111		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975112	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975113	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975114	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975115		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975116		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975117		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975118	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975119	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975120	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975121		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975122		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975123		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975124		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975125		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975126		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975127	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975128		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975129		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975130		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975131		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975132		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975133		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975134		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975135		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975136		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975137		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975138		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975139		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975140		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975141	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975142		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975143		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975144		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975145		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975146		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975147		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975148		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975149		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975150		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975151		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975152		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975153		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975154		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975155		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975156		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975157		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975158		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975159		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975160		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975161		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975162		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975163		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975164		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975165		nafld stage	Normal	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975166	0	nafld stage	NASH_F0	1	explicit_stage	
+GSE163211	GSM4975167		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975168		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975169		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE163211	GSM4975170		nafld stage	NASH_F1_F4	0	ambiguous_range	range_crosses_f3_threshold
+GSE163211	GSM4975171		nafld stage	Steatosis	0	unparsed	no_supported_stage_pattern
+GSE48452	GSM1178970	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178971		fibrosis	NA	0	unparsed	no_supported_stage_pattern
+GSE48452	GSM1178972	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178973	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178974	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178975	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1178976	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1178977	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178978	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178979	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178980		fibrosis	3.5	0	unparsed	no_supported_stage_pattern
+GSE48452	GSM1178981	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178982	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178983	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178984	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1178985	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178986	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178987	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178988	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178989	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1178990	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178991	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178992	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178993	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178994		fibrosis	NA	0	unparsed	no_supported_stage_pattern
+GSE48452	GSM1178995	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178996	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1178997	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1178998	2	fibrosis	2	1	explicit_stage	
+GSE48452	GSM1178999	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179000	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179001	3	fibrosis	3	1	explicit_stage	
+GSE48452	GSM1179002	4	fibrosis	4	1	explicit_stage	
+GSE48452	GSM1179003	3	fibrosis	3	1	explicit_stage	
+GSE48452	GSM1179004	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179005	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179006	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179007	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179008		fibrosis	0.5	0	unparsed	no_supported_stage_pattern
+GSE48452	GSM1179009	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179010	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179011	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179012	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179013	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179014	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179015	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179016	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179017	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179018	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179019	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179020	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179021	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179022	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179023	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179024	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179025	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179026	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179027	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179028	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179029	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179030	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179031	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179032	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179033	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179034	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179035	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179036	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179037	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179038	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179039	1	fibrosis	1	1	explicit_stage	
+GSE48452	GSM1179040	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179041	0	fibrosis	0	1	explicit_stage	
+GSE48452	GSM1179042	0	fibrosis	0	1	explicit_stage	
+GSE49541	GSM789110	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789111	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789112	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789113	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789114	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789115	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789116	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789117	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789118	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789119	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789120	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789121	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789122	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789123	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789124	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789125	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789126	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789127	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789128	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789129	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789130	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789131	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789132	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789133	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789134	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789135	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789136	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789137	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789138	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789139	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789140	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789141	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789142	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789143	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789144	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789145	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789146	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789147	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789148	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789149	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789150	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789151	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789152	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789153	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789154	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789155	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789156	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789157	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789158	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789159	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789160	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789161	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789162	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789163	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789164	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789165	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789166	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789167	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789168	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789169	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789170	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789171	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789172	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789173	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789174	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789175	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789176	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789177	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789178	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789179	1	Stage	mild (fibrosis stage 0-1)	1	range_within_nonadvanced	range_within_f0_f2
+GSE49541	GSM789180	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE49541	GSM789181	4	Stage	advanced (fibrosis stage 3-4)	1	range_within_advanced	range_within_f3_f4
+GSE89632	GSM2385720	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385721	4	fibrosis (stage)	4	1	explicit_stage	
+GSE89632	GSM2385722	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385723	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385724	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385725	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385726	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385727	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385728	3	fibrosis (stage)	3	1	explicit_stage	
+GSE89632	GSM2385729	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385730	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385731	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385732	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385733	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385734	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385735	3	fibrosis (stage)	3	1	explicit_stage	
+GSE89632	GSM2385736	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385737	2	fibrosis (stage)	2	1	explicit_stage	
+GSE89632	GSM2385738	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385739	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385740	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385741	4	fibrosis (stage)	4	1	explicit_stage	
+GSE89632	GSM2385742	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385743	4	fibrosis (stage)	4	1	explicit_stage	
+GSE89632	GSM2385744	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385745	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385746	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385747	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385748	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385749	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385750	2	fibrosis (stage)	2	1	explicit_stage	
+GSE89632	GSM2385751	4	fibrosis (stage)	4	1	explicit_stage	
+GSE89632	GSM2385752	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385753	3	fibrosis (stage)	3	1	explicit_stage	
+GSE89632	GSM2385754	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385755	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385756	3	fibrosis (stage)	3	1	explicit_stage	
+GSE89632	GSM2385757		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385758	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385759	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385760	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385761	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385762	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385763	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385764		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385765		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385766		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385767	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385768		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385769		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385770	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385771	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385772	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385773	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385774		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385775		fibrosis (stage)		0	missing	empty
+GSE89632	GSM2385776	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385777	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385778	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385779	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385780	1	fibrosis (stage)	1	1	explicit_stage	
+GSE89632	GSM2385781	0	fibrosis (stage)	0	1	explicit_stage	
+GSE89632	GSM2385782	1	fibrosis (stage)	1	1	explicit_stage	

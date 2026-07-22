@@ -1,0 +1,705 @@
+signature	rank	gene	source	doi	source_table
+NASH signature	1	SPP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	2	FBLN5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	3	CHI3L1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	4	CCL20	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	5	CD24	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	6	FABP4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	7	GPNMB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	8	VCAN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	9	EFEMP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	10	CXCL10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	11	DPT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	12	STMN2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	13	MMP7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	14	LUM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	15	AKR1B10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	16	THBS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	17	BICC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	18	FABP5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	19	EPHA3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	20	LYZ	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	21	CXCL6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	22	DCDC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	23	TYMS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	24	LPL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	25	FAT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	26	UBD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	27	ITGBL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	28	IL32	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	29	ANXA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	30	BIRC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	31	COL1A2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	32	SUSD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	33	HKDC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	34	CTSK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	35	ACSL4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	36	C7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	37	DCN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	38	TNFRSF12A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	39	ASPN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	40	CDKN1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	41	KRT7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	42	SPON1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	43	COL1A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	44	MOXD1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	45	GPC4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	46	CHST9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	47	THY1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	48	RNASE6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	49	LXN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	50	ADAMTSL2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	51	PODN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	52	LAMA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	53	IGFBP7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	54	PTGDS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	55	CXCL9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	56	CDH11	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	57	TSPAN8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	58	RGS4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	59	EPCAM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	60	GZMK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	61	THBS1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	62	MFAP4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	63	GSN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	64	ANTXR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	65	FMO2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	66	DTNA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	67	GEM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	68	PRAMEF10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	69	CXCL8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	70	TC2N	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	71	SVEP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	72	COL3A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	73	CYR61	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	74	LAMC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	75	CFTR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	76	PLCXD3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	77	F13A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	78	MGP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	79	LGALS3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	80	LOXL4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	81	CXCR4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	82	FAM169A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	83	AEBP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	84	FAP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	85	CAPG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	86	PLA2G7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	87	GPC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	88	FGFR2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	89	COL4A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	90	ANKRD1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	91	SMOC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	92	F3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	93	CDH6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	94	UPP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	95	IL7R	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	96	ADAM28	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	97	SRPX2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	98	MAP1B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	99	PDGFRA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	100	OLR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	101	AQP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	102	ANXA13	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	103	TREM2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	104	CCDC80	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	105	SLC1A3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	106	ZMAT3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	107	NFASC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	108	SLIT2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	109	MMP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	110	ANXA1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	111	GPRIN3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	112	HLA-DQA1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	113	GLS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	114	CLIP4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	115	SERPINE2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NASH signature	116	EEF1A2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	1	AKR1B10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	2	AEBP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	3	STMN2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	4	CCL19	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	5	EPCAM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	6	DCDC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	7	ITGBL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	8	EFEMP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	9	PDZK1IP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	10	CCL21	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	11	PTGDS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	12	IL32	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	13	LGALS3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	14	THBS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	15	LOXL4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	16	LUM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	17	CCL20	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	18	COL1A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	19	CXCL6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	20	CXCL10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	21	CDH11	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	22	SPON1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	23	FXYD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	24	LAMC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	25	DPT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	26	F3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	27	ANXA13	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	28	CD24	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	29	COL1A2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	30	LGALS4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	31	TNFRSF12A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	32	FAP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	33	SOX9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	34	EEF1A2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	35	PLP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	36	AQP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	37	GPX2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	38	UBD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	39	SPP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	40	LTBP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	41	TYMS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	42	THY1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	43	PLCXD3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	44	SMOC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	45	GPC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	46	FABP5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	47	CHST4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	48	MMP7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	49	BICC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	50	PDGFD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	51	GSN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	52	VTCN1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	53	PROCR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	54	LBH	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	55	DTL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	56	ANXA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	57	CHST9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	58	C7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	59	SLC44A3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	60	CLDN7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	61	PODN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	62	BEX2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	63	ZWINT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	64	FAM3B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	65	FCER1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	66	SPINT2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	67	FBLN5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	68	FABP4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	69	CLIC6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	70	EDA2R	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	71	FAT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	72	LAMA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	73	S100A6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	74	HKDC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	75	FAM169A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	76	TIMP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	77	SLC1A7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Fibrosis signature	78	KDELR3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	1	LGALS4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	2	CYP7A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	3	PEG10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	4	OXT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	5	HBB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	6	INHBE	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	7	NCAM2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	8	PRAP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	9	ENO3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	10	FNDC5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	11	TM7SF2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	12	EEF1A2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	13	TRHDE	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	14	CLGN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	15	FADS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	16	GPAM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	17	PPP1R3C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	18	SLC39A7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	19	EIF1AY	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	20	LRRC31	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	21	ISM1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	22	FDFT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	23	GCK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	24	NPY6R	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	25	DHRS7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	26	MAMDC4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	27	RPS4Y1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	28	TOR3A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	29	SQLE	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NAFL signature	30	AKR1B10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	1	CHI3L1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	2	MARCO	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	3	CD5L	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	4	C1QB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	5	TBX15	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	6	FOS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	7	LGALS4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	8	PZP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	9	IER3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	10	TRIM15	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	11	CPVL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	12	C1QC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	13	CXCL9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	14	MX1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	15	CDKN1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	16	MX2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	17	C1QA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	18	CXCL13	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	19	CDHR2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	20	SERPINE1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	21	IGKC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	22	CFD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	23	SNX10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	24	IFI16	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	25	IGFBP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	26	FREM2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	27	CXCL10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	28	CD74	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	29	LAPTM5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Liver aging signature	30	CD83	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	1	COL7A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	2	AMIGO2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	3	COMP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	4	SERPINE2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	5	TGFBI	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	6	SEMA7A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	7	KDELR3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	8	PDLIM7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	9	STK38L	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	10	FSTL3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	11	TPM1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	12	PDGFC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	13	SRA1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	14	TNFRSF12A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	15	SEC13	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	16	DLC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	17	ITGBL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	18	BHLHE40	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	19	RCN3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	20	SPARC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	21	UBE2V2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	22	SURF4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	23	NDEL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	24	GMPPB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	25	PLCB4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	26	LMO7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	27	LRRC59	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	28	PLEK2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	29	SEC23A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+HSC TGF-beta signature	30	SKIL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	1	ACSM2A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	2	CYP3A5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	3	ADRA1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	4	ACSM2B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	5	PLG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	6	PCSK6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	7	GHR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	8	CUX2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	9	ALDOB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	10	C5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	11	SLC38A4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	12	C9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	13	PPARGC1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	14	C4BPA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	15	PCK1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	16	KNG1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	17	ABCB4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	18	HGD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	19	AGMO	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	20	CYP3A4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	21	HRG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	22	F5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	23	AOX1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	24	SLC39A14	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	25	SLC7A2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	26	FABP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	27	CRP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	28	BHMT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	29	LBP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Hepatocytes	30	HPX	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	1	DEFB1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	2	TM4SF4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	3	KRT8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	4	AMBP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	5	VTN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	6	SPP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	7	GC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	8	FXYD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	9	KRT7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	10	KRT18	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	11	AGT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	12	CLDN10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	13	RBP4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	14	CD24	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	15	KRT19	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	16	LGALS4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	17	EPCAM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	18	MMP7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	19	TACSTD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	20	ELF3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	21	CLDN3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	22	SLPI	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	23	CA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	24	TNFRSF12A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	25	CXCL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	26	CXCL6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	27	AKR1C1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	28	FGGY	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	29	FGG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Cholangiocytes	30	SH3YL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	1	CD79A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	2	MS4A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	3	TCL1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	4	CD79B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	5	VPREB3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	6	BANK1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	7	IGHD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	8	SPIB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	9	FCER2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	10	CD22	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	11	FCRLA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	12	TNFRSF13C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	13	HLA-DOB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	14	FAM129C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	15	KIAA0125	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	16	BLK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	17	CD19	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	18	CCR7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	19	FCMR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	20	P2RX5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	21	RALGPS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	22	HVCN1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	23	ARHGAP24	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	24	SELL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	25	BCL11A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	26	ADAM28	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	27	GAPT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	28	NCF1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	29	CYB561A3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+B cells	30	POU2F2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	1	LTB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	2	TRAC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	3	IL7R	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	4	CD3D	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	5	TRBC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	6	CD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	7	CD3E	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	8	TRBC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	9	CD40LG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	10	CD3G	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	11	ACAP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	12	LCK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	13	SPOCK2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	14	SIT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	15	LAT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	16	RHOH	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	17	TRAF3IP3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	18	TRAT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	19	GPR171	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	20	FLT3LG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	21	CD27	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	22	MAL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	23	CCR7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	24	RCAN3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	25	BCL11B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	26	CD6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	27	CLEC2D	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	28	GPR183	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	29	ARHGAP15	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD4 T-cell signature	30	TBC1D10C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	1	GZMK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	2	CD3D	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	3	TRAC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	4	GZMH	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	5	CD8A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	6	CD3E	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	7	CD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	8	TRGC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	9	CD8B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	10	TRBC2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	11	GZMA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	12	CD3G	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	13	CTSW	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	14	LCK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	15	CST7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	16	GPR171	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	17	KLRG1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	18	IFNG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	19	ACAP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	20	GZMM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	21	TRBC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	22	SH2D1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	23	LAG3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	24	CXCR6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	25	RHOH	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	26	GRAP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	27	PTPN7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	28	LAT	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	29	PRF1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD8 T-cell signature	30	SIT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	1	FCN3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	2	CRHBP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	3	SLC9A3R2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	4	RAMP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	5	CLEC14A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	6	CLDN5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	7	SPARCL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	8	PLVAP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	9	PLPP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	10	VWF	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	11	CCL14	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	12	RNASE1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	13	HSPG2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	14	SPARC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	15	NPDC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	16	PLPP3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	17	TIMP3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	18	EGFL7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	19	PCAT19	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	20	SDPR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	21	RBP7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	22	RAMP3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	23	EMCN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	24	FLT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	25	IL33	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	26	LDB2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	27	CAV1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	28	SPRY1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	29	TSPAN7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Endothelial cells	30	HYAL2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	1	C1QC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	2	CD5L	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	3	MARCO	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	4	CD163	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	5	MS4A7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	6	CFD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	7	HMOX1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	8	FOLR2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	9	SDC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	10	FCGR3A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	11	CETP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	12	CD68	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	13	CPVL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	14	MS4A4A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	15	VCAM1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	16	AXL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	17	VSIG4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	18	FGL2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	19	CREG1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	20	CFP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	21	MPEG1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	22	CCL3L3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	23	LILRB5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	24	CYBB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	25	MSR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	26	VMO1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	27	MRC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	28	FAM26F	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	29	IGSF6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Kupffer cells	30	GPNMB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	1	FCER1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	2	CLEC10A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	3	HLA-DMB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	4	HLA-DQA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	5	CPVL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	6	GPR183	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	7	RGS10	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	8	RNASE6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	9	RGS1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	10	IL1B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	11	MNDA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	12	JAML	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	13	SPI1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	14	CD1C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	15	CD83	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	16	IGSF6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	17	CD68	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	18	LGALS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	19	PHACTR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	20	IFI30	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	21	PLD4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	22	VSIG4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	23	PLAUR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	24	PKIB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	25	LY86	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	26	CD1E	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	27	CAPG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	28	CLEC7A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	29	FCGR2A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Macrophages	30	CSF2RA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	1	S100A9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	2	S100A8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	3	FCN1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	4	CSTA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	5	VCAN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	6	MNDA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	7	S100A12	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	8	IFI30	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	9	SPI1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	10	LGALS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	11	CFD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	12	CYBB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	13	STXBP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	14	PLAUR	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	15	IL1B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	16	CLEC12A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	17	C5AR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	18	FGL2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	19	CLEC7A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	20	BCL2A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	21	APOBEC3A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	22	CFP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	23	JAML	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	24	TNFSF13B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	25	NCF2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	26	HCK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	27	FPR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	28	CD68	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	29	PILRA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+Monocytes	30	FAM26F	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	1	GNLY	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	2	PRF1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	3	CD7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	4	XCL1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	5	GZMA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	6	KLRD1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	7	CST7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	8	KLRB1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	9	GZMB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	10	XCL2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	11	CTSW	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	12	CCL5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	13	KLRF1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	14	FGFBP2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	15	CD247	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	16	TRDC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	17	IL2RB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	18	CLIC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	19	HOPX	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	20	CD160	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	21	PYHIN1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	22	GZMM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	23	SPON2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	24	CD69	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	25	MATK	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	26	IFNG	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	27	STK17A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	28	ALOX5AP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	29	KLRC1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+NK cells	30	APOBEC3G	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S1
+CD14+Monocytes	1	S100A8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	2	S100A9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	3	S100A12	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	4	VCAN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	5	LYZ	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	6	S100A6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	7	FCN1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	8	S100A4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	9	CSTA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD14+Monocytes	10	MNDA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	1	CDKN1C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	2	HES4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	3	TCF7L2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	4	CD79B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	5	MTSS1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	6	LILRA1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	7	TPPP3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	8	LILRA5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	9	CX3CR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	10	SLC24A4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	11	S1PR4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	12	FAM110A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	13	OAS1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	14	CDH23	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	15	MYO1G	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	16	SLC2A6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	17	ZNF703	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	18	IFITM1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	19	GPBAR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+CD16+Monocytes	20	TESC	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	1	FCN1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	2	SERPINA1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	3	SAT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	4	APOBEC3A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	5	IFI30	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	6	CD52	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	7	NEAT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	8	LGALS2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	9	CSTA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C0	10	LST1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	1	FCER1A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	2	CD1C	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	3	CD1E	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	4	FCGR2B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	5	PKIB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	6	NDRG2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	7	PLD4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	8	IL1R2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	9	CACNA2D3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	10	ADAM28	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	11	CCND2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	12	ADAM8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	13	GPAT3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	14	FILIP1L	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	15	SLC38A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	16	HLA-DOA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	17	TMEM109	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	18	KCNK6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	19	AXL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C1	20	RALA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	1	LPAR6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	2	TREM2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	3	CLEC10A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	4	FCGR2B	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	5	LTC4S	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	6	HLA-DQA2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	7	RGS1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	8	FCGR2A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	9	HLA-DQB2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	10	F13A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	11	LAIR1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	12	GSN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	13	DRAM2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	14	GPR183	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	15	SLAMF8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	16	HLA-DOA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	17	SGK1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	18	ADAM28	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	19	SDS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Macrophages C2	20	ABHD12	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	1	OTOA	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	2	GPNMB	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	3	TREM2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	4	PLA2G7	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	5	CD9	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	6	CYP27A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	7	MGLL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	8	ACP5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	9	SDS	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	10	VAT1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	11	NPL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	12	SLC38A6	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	13	SDSL	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	14	SPP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	15	MITF	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	16	CPM	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	17	AMDHD2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	18	DNASE2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	19	GLMP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Profibrotic Macrophages	20	FBP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	1	CD5L	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	2	SEPP1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	3	SLC40A1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	4	MARCO	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	5	APOE	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	6	LGMN	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	7	VCAM1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	8	SDC3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	9	CXCL12	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	10	CETP	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	11	FOLR2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	12	LYVE1	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	13	LILRB5	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	14	FABP3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	15	RND3	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	16	SCD	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	17	SMPDL3A	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	18	TIMD4	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	19	SLC7A8	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
+Kupffer cells	20	C2	He et al. 2023	10.1186/s12967-023-04300-6	Additional file 2 Table S3
